@@ -1,0 +1,25 @@
+{
+  "name": "feature-icons",
+  "main": "index.scss",
+  "version": "0.1.0",
+  "dependencies": {},
+  "styles": ["index.scss"],
+  "files": [
+    "images/icon-accidental-injury.png",
+    "images/icon-accidental-injury@2x.png",
+    "images/icon-avoid-tax.png",
+    "images/icon-avoid-tax@2x.png",
+    "images/icon-emergency-ambulance.png",
+    "images/icon-emergency-ambulance@2x.png",
+    "images/icon-no-annual-limit.png",
+    "images/icon-no-annual-limit@2x.png",
+    "images/icon-no-excess-kids.png",
+    "images/icon-no-excess-kids@2x.png",
+    "images/icon-piece-of-mind.png",
+    "images/icon-piece-of-mind@2x.png",
+    "images/icon-save-on-premiums.png",
+    "images/icon-save-on-premiums@2x.png",
+    "images/icon-tailor-your-cover.png",
+    "images/icon-tailor-your-cover@2x.png"
+  ]
+}
