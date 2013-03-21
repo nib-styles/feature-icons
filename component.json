@@ -3,7 +3,9 @@
   "main": "index.scss",
   "version": "0.1.0",
   "dependencies": {},
-  "styles": ["index.scss"],
+  "styles": [
+    "index.scss"
+  ],
   "files": [
     "images/icon-accidental-injury.png",
     "images/icon-accidental-injury@2x.png",
