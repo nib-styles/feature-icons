@@ -12,33 +12,35 @@
 
 .icon-emergency-ambulance {
   @include retina-background-image(feature-icon-path('icon-emergency-ambulance'), 'png', auto, 128px);
-  @extend %large-white-icon
+  @extend %large-white-icon;
 }
 .icon-no-excess-kids {
   @include retina-background-image(feature-icon-path('icon-no-excess-kids'), 'png', auto, 128px);
-  @extend %large-white-icon
+  @extend %large-white-icon;
 }
 .icon-accidental-injury {
   @include retina-background-image(feature-icon-path('icon-accidental-injury'), 'png', auto, 128px);
-  @extend %large-white-icon
+  @extend %large-white-icon;
 }
 .icon-no-annual-limit {
   @include retina-background-image(feature-icon-path('icon-no-annual-limit'), 'png', auto, 128px);
-  @extend %large-white-icon
+  @extend %large-white-icon;
 }
 .icon-tailor-your-cover {
   @include retina-background-image(feature-icon-path('icon-tailor-your-cover'), 'png', auto, 128px);
-  @extend %large-white-icon
+  @extend %large-white-icon;
 }
 .icon-save-on-premiums {
   @include retina-background-image(feature-icon-path('icon-save-on-premiums'), 'png', auto, 128px);
-  @extend %large-white-icon
+  @extend %large-white-icon;
+  margin: 0 auto;
+  width: 128px; 
 }
 .icon-avoid-tax {
   @include retina-background-image(feature-icon-path('icon-avoid-tax'), 'png', auto, 128px);
-  @extend %large-white-icon
+  @extend %large-white-icon;
 }
 .icon-piece-of-mind {
   @include retina-background-image(feature-icon-path('icon-piece-of-mind'), 'png', auto, 128px);
-  @extend %large-white-icon
+  @extend %large-white-icon;
 }
