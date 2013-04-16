@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   display: block;
   height: 128px;
-  width: 100%;
+  max-width: 100%;
 }
 
 .icon-emergency-ambulance {
@@ -34,6 +34,7 @@
   @include retina-background-image(feature-icon-path('icon-save-on-premiums'), 'png', auto, 128px);
   @extend %large-white-icon;
   margin: 0 auto;
+  // specific width, due to winking animation
   width: 128px; 
 }
 .icon-avoid-tax {
