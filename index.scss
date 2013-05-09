@@ -2,6 +2,16 @@
   @return component-path('nib-styles-feature-icons', "/images/#{$path}");
 }
 
+.feature-icon {
+  @media (max-width: 480px) {
+    text-align: center;
+  }
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
 %large-white-icon {
   background-position: bottom center; 
   background-repeat: no-repeat;
@@ -33,6 +43,7 @@
 .icon-save-on-premiums {
   @include retina-background-image(feature-icon-path('icon-save-on-premiums'), 'png', auto, 128px);
   @extend %large-white-icon;
+  background-size: 100%;
   margin: 0 auto;
   // specific width, due to winking animation
   width: 128px; 
