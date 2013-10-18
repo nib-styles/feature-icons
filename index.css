@@ -1,0 +1,48 @@
+.icon-emergency-ambulance, .icon-no-excess-kids, .icon-accidental-injury, .icon-no-annual-limit, .icon-tailor-your-cover, .icon-save-on-premiums, .icon-avoid-tax, .icon-piece-of-mind {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 128px;
+  width: 100%; }
+  .retina .icon-emergency-ambulance, .retina .icon-no-excess-kids, .retina .icon-accidental-injury, .retina .icon-no-annual-limit, .retina .icon-tailor-your-cover, .retina .icon-save-on-premiums, .retina .icon-avoid-tax, .retina .icon-piece-of-mind {
+    background-size: auto 128px; }
+
+.no-retina .icon-emergency-ambulance, .no-js .icon-emergency-ambulance {
+  background-image: url("images/icon-emergency-ambulance.png"); }
+.retina .icon-emergency-ambulance {
+  background-image: url("images/icon-emergency-ambulance@2x.png"); }
+
+.no-retina .icon-no-excess-kids, .no-js .icon-no-excess-kids {
+  background-image: url("images/icon-no-excess-kids.png"); }
+.retina .icon-no-excess-kids {
+  background-image: url("images/icon-no-excess-kids@2x.png"); }
+
+.no-retina .icon-accidental-injury, .no-js .icon-accidental-injury {
+  background-image: url("images/icon-accidental-injury.png"); }
+.retina .icon-accidental-injury {
+  background-image: url("images/icon-accidental-injury@2x.png"); }
+
+.no-retina .icon-no-annual-limit, .no-js .icon-no-annual-limit {
+  background-image: url("images/icon-no-annual-limit.png"); }
+.retina .icon-no-annual-limit {
+  background-image: url("images/icon-no-annual-limit@2x.png"); }
+
+.no-retina .icon-tailor-your-cover, .no-js .icon-tailor-your-cover {
+  background-image: url("images/icon-tailor-your-cover.png"); }
+.retina .icon-tailor-your-cover {
+  background-image: url("images/icon-tailor-your-cover@2x.png"); }
+
+.no-retina .icon-save-on-premiums, .no-js .icon-save-on-premiums {
+  background-image: url("images/icon-save-on-premiums.png"); }
+.retina .icon-save-on-premiums {
+  background-image: url("images/icon-save-on-premiums@2x.png"); }
+
+.no-retina .icon-avoid-tax, .no-js .icon-avoid-tax {
+  background-image: url("images/icon-avoid-tax.png"); }
+.retina .icon-avoid-tax {
+  background-image: url("images/icon-avoid-tax@2x.png"); }
+
+.no-retina .icon-piece-of-mind, .no-js .icon-piece-of-mind {
+  background-image: url("images/icon-piece-of-mind.png"); }
+.retina .icon-piece-of-mind {
+  background-image: url("images/icon-piece-of-mind@2x.png"); }

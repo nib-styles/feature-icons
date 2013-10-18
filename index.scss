@@ -1,44 +1,54 @@
-@function feature-icon-path($path) {
-  @return component-path('nib-styles-feature-icons', "/images/#{$path}");
-}
 
 %large-white-icon {
-  background-position: bottom center; 
+  background-position: bottom center;
   background-repeat: no-repeat;
   display: block;
   height: 128px;
   width: 100%;
+  .retina & {
+    background-size: auto 128px;
+  }
+}
+
+@mixin retina-background-image($url) {
+  .no-retina &,
+  .no-js & {
+    background-image: url($url + '.png');
+  }
+  .retina & {
+    background-image: url($url + '@2x.png');
+  }
 }
 
 .icon-emergency-ambulance {
-  @include retina-background-image(feature-icon-path('icon-emergency-ambulance'), 'png', auto, 128px);
+  @include retina-background-image('images/icon-emergency-ambulance');
   @extend %large-white-icon
 }
 .icon-no-excess-kids {
-  @include retina-background-image(feature-icon-path('icon-no-excess-kids'), 'png', auto, 128px);
+  @include retina-background-image('images/icon-no-excess-kids');
   @extend %large-white-icon
 }
 .icon-accidental-injury {
-  @include retina-background-image(feature-icon-path('icon-accidental-injury'), 'png', auto, 128px);
+  @include retina-background-image('images/icon-accidental-injury');
   @extend %large-white-icon
 }
 .icon-no-annual-limit {
-  @include retina-background-image(feature-icon-path('icon-no-annual-limit'), 'png', auto, 128px);
+  @include retina-background-image('images/icon-no-annual-limit');
   @extend %large-white-icon
 }
 .icon-tailor-your-cover {
-  @include retina-background-image(feature-icon-path('icon-tailor-your-cover'), 'png', auto, 128px);
+  @include retina-background-image('images/icon-tailor-your-cover');
   @extend %large-white-icon
 }
 .icon-save-on-premiums {
-  @include retina-background-image(feature-icon-path('icon-save-on-premiums'), 'png', auto, 128px);
+  @include retina-background-image('images/icon-save-on-premiums');
   @extend %large-white-icon
 }
 .icon-avoid-tax {
-  @include retina-background-image(feature-icon-path('icon-avoid-tax'), 'png', auto, 128px);
+  @include retina-background-image('images/icon-avoid-tax');
   @extend %large-white-icon
 }
 .icon-piece-of-mind {
-  @include retina-background-image(feature-icon-path('icon-piece-of-mind'), 'png', auto, 128px);
+  @include retina-background-image('images/icon-piece-of-mind');
   @extend %large-white-icon
 }
