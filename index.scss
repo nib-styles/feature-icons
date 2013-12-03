@@ -20,6 +20,21 @@
   }
 }
 
+
+.icon-emergency-ambulance, .icon-no-excess-kids, .icon-accidental-injury, .icon-no-annual-limit, .icon-tailor-your-cover, .icon-save-on-premiums, .icon-avoid-tax, .icon-piece-of-mind {
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  display: block;
+  height: 128px;
+  width: 100%;
+}
+.icon-save-on-premiums {
+  width: 128px !important;
+}
+.retina .icon-save-on-premiums {
+  background-size: 100% !important;
+}
+
 .icon-emergency-ambulance {
   @include retina-background-image('images/icon-emergency-ambulance');
   @extend %large-white-icon
